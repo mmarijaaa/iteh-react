@@ -1,6 +1,32 @@
-.App {
+/*.App {
   text-align: center;
+}*/
+
+.vangogh{
+  text-align: left;
 }
+
+.meni2{
+  text-align: right;
+}
+
+.slika{
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(211, 211, 211);
+  border-radius: 10px;
+  max-width: 200px;
+
+}
+
+.sveslike{
+  display: flex;
+  margin: 20px;
+
+}
+
+
+
 
 .App-logo {
   height: 40vmin;
