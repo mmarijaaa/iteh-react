@@ -6,7 +6,6 @@ import ReactPaginate from 'react-paginate';
 
 
 const stilstranice = {
-    //height: 563 + "px",
     paddingTop: 10 + "px",
     paddingBottom: 30 + "px",
     backgroundColor: "#455a64"

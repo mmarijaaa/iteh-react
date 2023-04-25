@@ -2,7 +2,6 @@ import React from 'react';
 import img from './images/aboutportert.jpg'
 
 const stilstranice = {
-    //height: 563 + "px",
     paddingTop: 20 + "px",
     paddingBottom: 50 + "px",
     backgroundColor: "#455a64",

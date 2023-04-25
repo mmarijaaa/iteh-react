@@ -7,7 +7,6 @@ import img from './images/quote1.jpeg'
 
 
 const stilstranice = {
-    //height: 563 + "px",
     paddingTop: 50 + "px",
     paddingBottom: 50 + "px",
     backgroundColor: "rgb(54, 85, 99)"
@@ -29,8 +28,6 @@ function Form() {
         console.log(data);
         alert("You subscribed successfully!");
     };
-
-    
 
     return (
         <div className="formasve" style={stilstranice}>
