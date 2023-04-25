@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from "react-router-dom" 
 import img from './images/potpismeni.png'
 import imginsta from './images/insta.png'
+import imgpint from './images/pint.png'
 
 const stilteksta = {
     textDecoration: "none",
@@ -9,12 +10,10 @@ const stilteksta = {
     fontSize: 17 + "px",
     marginLeft: 20 + "px",
     marginRight: 20 + "px",
-    
 }
 
 function Footer() {
     return (
-
         <footer>
             <div className="flogo">
                 <img className="fpotpis" src={img} />
@@ -25,11 +24,11 @@ function Footer() {
                 <Link to = "/paintings" style={stilteksta}>PAINTINGS</Link>
                 <Link to = "/form" style={stilteksta}>SUBSCRIBE</Link>
             </div>
-            <div className="finstagram">
-                <img className="finsta" src={imginsta} />
+            <div className="fsocial">
+                <img className="fimg" src={imginsta} />
+                <img className="fimg" src={imgpint} />
             </div>
         </footer>
-
     )
 }
 

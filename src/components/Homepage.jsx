@@ -2,16 +2,10 @@ import React from 'react';
 import {Link} from "react-router-dom"
 
 
-const stilstranice = {
-    height: 563 + "px",
-    
-}
-
-
 function Homepage() {
     return (
 
-        <div className="homepage" style={stilstranice}>
+        <div className="homepage">
             <div className="tekst"> 
                 <div className="citathomepage" >“Art is to console those who are broken by life.”</div>
                 <div className="opisstranice" >Discover the life and work of world famous post-impressionist painter</div>

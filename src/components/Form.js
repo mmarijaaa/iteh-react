@@ -7,7 +7,9 @@ import img from './images/quote1.jpeg'
 
 
 const stilstranice = {
-    height: 563 + "px",
+    //height: 563 + "px",
+    paddingTop: 50 + "px",
+    paddingBottom: 50 + "px",
     backgroundColor: "rgb(54, 85, 99)"
 }
 
@@ -28,19 +30,21 @@ function Form() {
         alert("You subscribed successfully!");
     };
 
+    
+
     return (
         <div className="formasve" style={stilstranice}>
             <div className="form">
 
             <div className="inputs">
-                <form className = "forma" onSubmit={handleSubmit(onSubmit)}>
+                <form className = "forma" id = "frm" onSubmit={handleSubmit(onSubmit)}>
 
                     <div className="inputnaslov">
                         Subscribe here and discover more of Van Goghs work! 
                     </div>
 
                     <div className="inputpolje">
-                        <input className="inputpolje" type="text" placeholder="First Name..." {...register("firstName")} />
+                        <input className="inputpolje" type="text" id="txt" placeholder="First Name..." {...register("firstName")} />
                     </div>
                             <p>{errors.firstName?.message}</p>
                     <div className="inputpolje">

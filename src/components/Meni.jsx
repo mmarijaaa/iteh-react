@@ -9,12 +9,10 @@ const stilteksta = {
     fontSize: 17 + "px",
     marginLeft: 20 + "px",
     marginRight: 20 + "px",
-    
 }
 
 function Meni() {
     return (
-        
 
         <div className="ceomeni">
             <div>

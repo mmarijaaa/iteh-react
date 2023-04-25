@@ -9,15 +9,7 @@ import Footer from "./components/Footer";
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 
 
-
-const stilstranice = {
-  height: 657 + "px",
- 
-}
-
 function App() {
-
-  
   return (
     <div className="webapp" >
     <BrowserRouter className="App">
@@ -40,9 +32,7 @@ function App() {
         element = {<Form/>} 
         />
       </Routes>
-      <Footer></Footer>
-      
-      
+      <Footer></Footer> 
     </BrowserRouter>
     </div>
   )
