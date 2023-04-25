@@ -7,6 +7,8 @@
 /*'Noto Serif', serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
 
+
+/*MENI*/
 .meni {
   margin: 0;
   padding: 0;
@@ -18,17 +20,13 @@
   
 }
 
-/*.formasve {
-  background-image: url("./components/images/NOVAPOZADINA.jpg");
-  background-size: cover;
-}*/
-
 .aboutstranica {
   display: flex;
   justify-content: center;
   align-items: center;
 }
  
+/*BIOGRAFIJA*/
 .biografija {
   border-radius: 20px;
   border-style: none;
@@ -38,7 +36,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
   
 }
 
@@ -150,42 +147,7 @@
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-/*.biografija .portretslika {
-  flex: 45%;
-  padding-left: 35px;
-}
-
-.biografija .biografijacela {
-  flex: 55%;
-  display: flex;
-  flex-direction: column;
-  /*justify-content: center;
-  align-items: center;
-}
-
-.aboutportret {
-  height: 430px;
-  border-radius: 10px;
-}
-
-.biografija .biografijacela .biografijanaslov{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: italic;
-  font-size: 23px;
-  padding-left: 150px; 
-  padding-bottom: 25px;
-  color: #3D2B1F;
-}
-
-.biografija .biografijacela .biografijatekst{
-  
-  font-family: 'Nunito', sans-serif;
-  font-size: 14px;
-  padding-right: 40px;
-  color: #263238;
-}*/
-
-
+/*HOEMPAGE*/
 .homepage{
   background-image: url("./components/images/konacna.jpg");
   background-size: cover;
@@ -217,6 +179,7 @@
   color: #080d14; 
 }
 
+/*SLIKE-GALERIJA*/
 .slika {
   height: 420px;
   width: 320px;
@@ -253,7 +216,6 @@
   height: 15px;
   padding-bottom: 15px;
   font-family: 'Bitter', serif;
-  /*font-family: 'Noto Serif', serif;*/
   font-size: 20px;
 }
 
@@ -270,46 +232,7 @@
   
 }
 
-/*.dugme{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-left: 15px;
-  margin-right: 15px;
-  font-size: 18px;
-  background-color: black;
-  color: whitesmoke;
-  border-radius: 70px; 
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: none;
-}
-
-.dugme:hover {
-  cursor: pointer;
-  background-color: white;
-  color: black;
-}
-
-.meni .levastrana {
-  flex: 30%;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  padding: 20px;
-}
-
-.meni .desnastrana{
-  flex: 70%;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-}
-
-.meni .desnastrana .links {
-  max-height: 70px;
-}*/
-
+/*MENI*/
 .ceomeni{
   display: flex;
   flex-direction: column;
@@ -335,8 +258,7 @@
   border-bottom-right-radius: 3px;
 }
 
-
-
+/*PAGINACIJA*/
 .paginationBttns {
   width: 100%;
   height: 50px;
@@ -378,12 +300,7 @@
   background-color: white;
 }
 
-/*p {
-  color: red;
-}*/
-
-
-
+/*FORMA SUBSCRIBE*/
 .formasve {
   display: flex;
   justify-content: center;
@@ -420,7 +337,6 @@
   border: none;
   background-color:rgb(54, 85, 99);
   border-radius: 12px;
-  /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
   
 }
 
@@ -524,4 +440,7 @@ input[type=submit]:hover {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+/*FOOTER*/
+
 

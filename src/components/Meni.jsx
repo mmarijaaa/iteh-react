@@ -1,11 +1,7 @@
 import React from 'react' 
 import {Link} from "react-router-dom" 
 import img from './images/potpismeni.png'
-
-//Link koristimo da nam se ne bi refreshovala stranica, odmah se prikazuje stranica bez refresh
-//ako necemo to, napisemo samo <a href = "/"></a>
-
-//onda kod "/painting/id=nesto" 
+ 
 
 const stilteksta = {
     textDecoration: "none",
@@ -18,19 +14,7 @@ const stilteksta = {
 
 function Meni() {
     return (
-        /*<div className = "meni">
-
-                <div className="levastrana">
-                    <img className="potpis" src={img} />                 
-                </div>
-                <div className="desnastrana">
-                    <div className="links">
-                        <Link to = "/" style={stilteksta} >HOME</Link>
-                        <Link to = "/paintings" style={stilteksta}>PAINTINGS</Link>
-                        <Link to = "/form" ><button className="dugme">SUBSCRIBE</button></Link>
-                    </div>
-                </div>
-        </div>*/
+        
 
         <div className="ceomeni">
             <div>

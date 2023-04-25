@@ -3,7 +3,7 @@ import JednaSlika from './JednaSlika';
 import ReactPaginate from 'react-paginate';
 
 
-//const Slike = ({slike}) => ako zelimo da prosledjujemo podatke kroz sve komponente
+
 
 const stilstranice = {
     height: 563 + "px",
@@ -12,13 +12,7 @@ const stilstranice = {
 
 function Slike() {
     
-    //mapiranje niza koje se koristi veliki broj npr slika za prikaz 
-    /*{slike.map((pic) => {
-        return <JednaSlika slika = {pic}  key = {pic.id}/>;
-    })}*/
-     /*{slike.map((pic) => (
-        <JednaSlika slika = {pic} />
-    ))}*/
+    
 
     const slike = [
         {
@@ -132,7 +126,7 @@ function Slike() {
             id: 16,
             title: "'The Red Vineyard'",
             description: "November, 1888",
-            nekaslika: require("./images/The-Red-Vineyard.jpg"),
+            nekaslika: require("./images/The-Red-Vineyard.jpg"), 
             muzej: "The Pushkin State Museum of Fine Arts, Moscow"
         },
         {
@@ -191,9 +185,7 @@ function Slike() {
     return (
         <div className="galerijaslika" style={stilstranice}>
 
-            {/*slike.map((pic) => (
-                <JednaSlika slika = {pic}  key = {pic.id}/>
-            ))*/}
+            
             <div className="sveslike">
                 {prikaziSlike}
             </div>
@@ -213,9 +205,7 @@ function Slike() {
             </div>
 
 
-            {/*<JednaSlika slika={slike[0]}/>
-            <JednaSlika slika={slike[1]}/>
-            <JednaSlika slika={slike[2]}/>*/}
+            
         </div>
     );
 };

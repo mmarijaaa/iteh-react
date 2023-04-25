@@ -1,5 +1,5 @@
 import React from 'react';
-//import {neka ikonica, druga ikonica} from "react-icons/folder koji pise na pocetku ikonice";
+
 
 function JednaSlika({slika}) {
     
