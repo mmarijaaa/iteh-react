@@ -12,7 +12,7 @@
 .meni {
   margin: 0;
   padding: 0;
-  background-color: rgb(54, 85, 99);;
+  background-color: rgb(54, 85, 99);
   height: 70px;
   width: 100%;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -238,6 +238,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #F5FBFF;
   
 }
 
@@ -443,4 +444,67 @@ input[type=submit]:hover {
 
 /*FOOTER*/
 
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5FBFF;
+  height: 120px;
+}
 
+footer .flogo {
+  flex: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .finstagram {
+  flex: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .flinkovi {
+  flex: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .flogo .fpotpis {
+  height: 40px;
+}
+
+footer .finstagram .finsta {
+  height:40px;
+  cursor:pointer;
+}
+
+footer .flinkovi {
+  display: flex;
+  flex-direction: column;
+}
+
+/*SCROLL BAR*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #20293a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
